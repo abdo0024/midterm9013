@@ -1,0 +1,159 @@
+                                            @import 'https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif';
+                                        </style> * {
+                                            padding: 0;
+                                            margin: 0;
+                                            box-sizing: border-box;
+                                        }
+                                        
+                                        html {
+                                            font-size: 20px;
+                                            line-height: 1.6;
+                                            font-family: 'Droid Sans', 'Baskerville', sans-serif;
+                                        }
+                                        /*************************** 
+DEFAULTS - MOBILE FIRST 
+***************************/
+                                        
+                                        h1 {
+                                            font: 20px bold 4.236rem 'Droid Serif', 'Arial', serif;
+                                        }
+                                        
+                                        h2 {
+                                            font: 16px bold 2.618rem 'Droid Serif', 'Gadget', serif;
+                                        }
+                                        
+                                        li,
+                                        p,
+                                        a {
+                                            font: 16px bold 1.618rem 'Droid Sans', 'Helvetica', sans-serif;
+                                        }
+                                        
+                                        pre,
+                                        code,
+                                        kbd {
+                                            font: 16px normal 1.0rem 'Droid Sans Mono', 'Baskerville',
+                                        }
+                                        /***************************
+    LAYOUT - MOBILE FIRST
+***************************/
+                                        
+                                        .wrapper {
+                                            width: 95%;
+                                            margin: 0 auto;
+                                        }
+                                        
+                                        header {
+                                            width: 100%;
+                                        }
+                                        
+                                        nav {
+                                            width: 100%;
+                                        }
+                                        
+                                        nav>ul {
+                                            width: 100%;
+                                        }
+                                        
+                                        nav li {
+                                            width: 100%;
+                                            list-style: none;
+                                        }
+                                        
+                                        nav a,
+                                        nav a:link,
+                                        nav a:visited {
+                                            display: block;
+                                            font: 12px bold 1.618rem 'Droid Sans', 'Arial', sans-serif;
+                                            text-align: center;
+                                        }
+                                        
+                                        nav a:active,
+                                        nav a:focus,
+                                        nav a:hover {}
+                                        
+                                        @media screen and (min-width:600px) {
+                                            background-image: url('https://placeimg.com/240/240/animals');
+                                            wrapper {
+                                                width: 100%;
+                                                margin: auto;
+                                                max-width: 1200px;
+                                            }
+                                            header {
+                                                width: 100%;
+                                            }
+                                            .nav {
+                                                width: 90%;
+                                            }
+                                            links {
+                                                width: 20%
+                                            }
+                                            main {
+                                                width: 20%;
+                                            }
+                                            .col {
+                                                float: none;
+                                                width: 50%;
+                                            }
+                                            .col img {
+                                                width: 60%;
+                                                height: auto;
+                                                max-width: 100%;
+                                                background-color: azure;
+                                            }
+                                            footer {
+                                                width: 90%;
+                                            }
+                                            @media screen and (min-width: 800px) {}
+                                            background-image: url('https://placeimg.com/240/240/animals');
+                                            header {
+                                                width: 100%;
+                                            }
+                                            .nav {
+                                                width: 90%;
+                                            }
+                                            links {
+                                                width: 20%
+                                            }
+                                            main {
+                                                width: 90%;
+                                            }
+                                            .col {
+                                                float: none;
+                                                width: 50%;
+                                            }
+                                            .col img {
+                                                width: 50%;
+                                                height: auto;
+                                                max-width: 100%;
+                                                background-color: azure;
+                                            }
+                                            footer {
+                                                width: 100%;
+                                            }
+                                            @media screen and (min-width: 1200px) {}
+                                            background-image: url('https://placeimg.com/240/240/animals');
+                                            header {
+                                                width: 100%;
+                                            }
+                                            .nav {
+                                                width: 30%;
+                                            }
+                                            links {
+                                                width: 100%
+                                            }
+                                            main {
+                                                width: 70%;
+                                            }
+                                            .col {
+                                                float: none;
+                                                width: 50%;
+                                            }
+                                            .col img {
+                                                width: 55%;
+                                                height: auto;
+                                                max-width: 100%;
+                                                background-color: azure;
+                                            }
+                                            footer {
+                                                width: 100%;
+                                            }
